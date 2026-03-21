@@ -320,7 +320,6 @@ function SignInScreen({ title, subtitle, onSubmit }) {
         </div>
         <div className="sfc" style={{background:"rgba(255,255,255,0.08)",backdropFilter:"blur(20px)",borderRadius:20,padding:"32px 32px",border:"1px solid rgba(255,255,255,0.18)",boxShadow:"0 24px 64px rgba(0,0,0,0.35)"}}>
           <div style={{fontFamily:"Inter,sans-serif",fontSize:20,fontWeight:800,color:"#fff",marginBottom:4,textAlign:"center"}}>Sign In</div>
-          <div style={{fontSize:13,color:"rgba(255,255,255,0.5)",textAlign:"center",marginBottom:24}}>Enter your details to access the platform</div>
           <div style={{display:"flex",flexDirection:"column",gap:14}}>
             <div>
               <label style={lbl}>Full Name *</label>
